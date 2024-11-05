@@ -18,14 +18,14 @@ ConditionalStatementsBinary/
 
 ## 1. **Create the Project Folder and File**
 
-- [ ] Create a folder named `ConditionalStatementsBinary` to store your project files.
-- [ ] Inside the `ConditionalStatementsBinary` folder, create a file named `index.js`. This file will contain all your JavaScript code.
+- [ x] Create a folder named `ConditionalStatementsBinary` to store your project files.
+- [x ] Inside the `ConditionalStatementsBinary` folder, create a file named `index.js`. This file will contain all your JavaScript code.
 
 ## 2. **Create a Conditional Statement using `if`**
 
 The `if` statement is used to execute a block of code if a specified condition is `true`. This allows your program to make decisions and run code only when certain conditions are met.
 
-- [ ] In your `index.js` file, add the following code to create a simple example of an `if` conditional statement:
+- [ x] In your `index.js` file, add the following code to create a simple example of an `if` conditional statement:
 
 ```js
 // Using `if` to check a condition
@@ -36,7 +36,7 @@ if (weather === 'rainy') {
 }
 ```
 
-- [ ] See your code in action: Run the JavaScript file in your terminal by entering the command `node index.js` and pressing Enter.
+- [ x] See your code in action: Run the JavaScript file in your terminal by entering the command `node index.js` and pressing Enter.
 
 **Explanation:**
 
@@ -48,8 +48,8 @@ if (weather === 'rainy') {
 
 The `else` statement can be added after an `if` statement to define an alternative block of code to execute when the `if` condition is `false`.
 
-- [ ] In your `index.js` file, change the value of the `weather` variable to `"sunny"`. Do this by creating a new line that reassigns the variable, rather than modifying the original line where it is declared.
-- [ ] Update your code to expand your example with an `else` statement:
+- [ x] In your `index.js` file, change the value of the `weather` variable to `"sunny"`. Do this by creating a new line that reassigns the variable, rather than modifying the original line where it is declared.
+- [ x] Update your code to expand your example with an `else` statement:
 
 ```js
 // Using `if` and `else` to handle different conditions
@@ -62,7 +62,7 @@ if (weather === 'rainy') {
 }
 ```
 
-- [ ] See your code in action: Run the JavaScript file in your terminal by entering the command `node index.js` and pressing Enter.
+- [ x] See your code in action: Run the JavaScript file in your terminal by entering the command `node index.js` and pressing Enter.
 
 **Explanation:**
 
@@ -74,7 +74,7 @@ if (weather === 'rainy') {
 ## 4. **Add Multiple `if` Statements and Understand the `else` Catch-All**
 When using multiple `if` statements, JavaScript evaluates each `if` condition from top to bottom. As soon as it finds a condition that is `true`, it runs the corresponding code block and stops checking any remaining conditions.
 
-- [ ] In your `index.js` file, update your code to expand your example with multiple `if` statements:
+- [ x] In your `index.js` file, update your code to expand your example with multiple `if` statements:
 
 ```js
 // Using multiple `if` statements to handle different scenarios
@@ -93,7 +93,7 @@ if (weather === 'snowy') {
 }
 ```
 
-- [ ] See your code in action: Run the JavaScript file in your terminal by entering the command `node index.js` and pressing Enter.
+- [ x] See your code in action: Run the JavaScript file in your terminal by entering the command `node index.js` and pressing Enter.
 
 **Explanation:**
 
@@ -143,7 +143,7 @@ console.log(personAge >= requiredAge); // true (20 is greater than or equal to 1
 console.log(personAge <= requiredAge); // false (20 is not less than or equal to 18)
 ```
 
-- [ ] See your code in action: Run the JavaScript file in your terminal by entering the command `node index.js` and pressing Enter.
+- [x ] See your code in action: Run the JavaScript file in your terminal by entering the command `node index.js` and pressing Enter.
 
 **Explanation:**
 
@@ -157,8 +157,8 @@ console.log(personAge <= requiredAge); // false (20 is not less than or equal to
 
 In JavaScript, certain values are treated as `true` or `false` when evaluated in a boolean context (like an `if` statement). These are known as "truthy" or "falsy" values. Examples of falsy values include `0`, `""` (empty string), `null`, `undefined`, `NaN` (not a number), and `false`. All other values are considered truthy.
 
-- [ ] Add examples to `index.js` to explore truthy and falsy values:
-- [ ] In your `index.js` file, add the following code examples to understand how truthy and falsy values work:
+- [ x] Add examples to `index.js` to explore truthy and falsy values:
+- [ x] In your `index.js` file, add the following code examples to understand how truthy and falsy values work:
 
 ```js
 // Truthy and Falsy Values Examples
@@ -200,7 +200,7 @@ if (userInput) {
   console.log("User input is falsy"); // Expected output: (This will not print because 'Hello' is truthy)
 }
 ```
-- [ ] See your code in action: Run the JavaScript file in your terminal by entering the command `node index.js` and pressing Enter.
+- [ x] See your code in action: Run the JavaScript file in your terminal by entering the command `node index.js` and pressing Enter.
 
 **Explanation:**
 - The `if (age === minDrivingAge)` example shows that when comparing two different types (`number` vs. `string`), the strict equality operator (`===`) evaluates as `false`.
@@ -246,7 +246,7 @@ if (!isWeekend) {
 }
 ```
 
-- [ ] See your code in action: Run the JavaScript file in your terminal by entering the command `node index.js` and pressing Enter.
+- [x ] See your code in action: Run the JavaScript file in your terminal by entering the command `node index.js` and pressing Enter.
 
 **Explanation:**
 
@@ -259,7 +259,7 @@ if (!isWeekend) {
 Practice writing additional conditional statements using what you've learned. Try checking multiple conditions, using logical operators, or combining different comparison operators.
 
 ## 9. **Commit and Push to Github**
-- [ ] Commit and push your work to Github.
+- [ x] Commit and push your work to Github.
 
 ##
 
